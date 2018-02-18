@@ -13,6 +13,10 @@ class Owner
     self.all.count
   end
 
+  def self.reset_all
+    self.all.clear
+  end
+
   def initialize(name)
     @name = name
     @species = "human"
