@@ -17,7 +17,7 @@ class Owner
     self.all.clear
   end
 
-  
+
 
   def initialize(name)
     @name = name
