@@ -9,12 +9,16 @@ class Owner
     @@all
   end
 
+  def self.count
+    self.all.count
+  end
+
   def initialize(name)
     @name = name
     @species = "human"
   end
 
   def say_species
-    
+
   end
 end
