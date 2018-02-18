@@ -23,6 +23,7 @@ class Owner
     @name = name
     @species = "human"
     @pets = {:dogs => [], :cats => [], :fish => []}
+    @@all << self
   end
 
   def say_species
